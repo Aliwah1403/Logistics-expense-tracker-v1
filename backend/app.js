@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 const { readdirSync } = require("fs");
 const { db } = require("./db/db");
 const admin = require("firebase-admin");
-const serviceAccount = require("./config/logistics-expense-tracker-firebase-adminsdk-r0h7n-d0b19ca46d.json");
+// const serviceAccount = require("./config/logistics-expense-tracker-firebase-adminsdk-r0h7n-d0b19ca46d.json");
 
 // firebase admin
 // admin.initializeApp({

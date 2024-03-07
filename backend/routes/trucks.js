@@ -1,14 +1,9 @@
-const {
-  addTruck,
-  getTrucks,
-  deleteTruck,
-} = require("../controllers/truckController");
+const { addTransport } = require("../controllers/transportController");
+
 
 const router = require("express").Router();
 
 router
-  .post("/add-truck", addTruck)
-  .get("/get-trucks", getTrucks)
-  .delete("/delete-truck/:id", deleteTruck);
+  .post('/add-transport', addTransport)
 
 module.exports = router;
